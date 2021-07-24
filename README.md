@@ -2,8 +2,9 @@
 
 # Screenshots 📸
 
-<img src="./screenshots/gifView.gif" alt="View on Desktop">
-<img src="./screenshots/gifViewMobile.gif" alt="View on Mobile">
+<img src="./screenshots/gifView.gif" alt="View on Desktop" />
+<br>
+<img src="./screenshots/gifViewMobile.gif" alt="View on Mobile" />
 
 <img src="./screenshots/pic1.jpg" alt="Screenshot 1" />
 <img src="./screenshots/pic2.jpg" alt="Screenshot 2" />
