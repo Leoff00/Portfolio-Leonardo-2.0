@@ -1,25 +1,38 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Header } from "./components/Header";
+import { Card } from "./components/Card";
+import GlobalStyle from "./globalStyles";
+import { PhraseText } from "./components/PhraseText";
+import { Underline } from "./components/Underline";
+import { Portfolio } from "./components/Portfolio";
+import { Footer } from "./components/Footer";
+import { Curriculum } from "./components/Curriculum";
+import { MediaContextProvider } from "./contexts/MediaContext";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <MediaContextProvider>
+        <GlobalStyle />
+        <Header />
+        <PhraseText />
+
+        <Underline />
+
+        <Card />
+
+        <Underline />
+
+        <Portfolio />
+
+        <Underline />
+
+        <Curriculum />
+
+        <Underline />
+
+        <Footer />
+      </MediaContextProvider>
+    </>
   );
 }
 
