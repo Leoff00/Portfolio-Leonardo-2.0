@@ -139,6 +139,13 @@ export const AvatarBox = Styled.div`
   border-radius: 9999px;
   margin: 5px auto;
 
+    //Big Resolutions
+    @media screen and (min-width: 1024px) {
+    width: 12%;
+    height: 156px;
+    border-radius: 9999px;
+  }
+
     //Mobile devices
   @media screen and (max-width: 767px) {
     width: 32%;

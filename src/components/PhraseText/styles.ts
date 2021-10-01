@@ -61,6 +61,7 @@ export const MeetText = Styled.h1`
     typing 4.5s steps(15, end) infinite,
     blink-caret .75s step-end infinite;
 
+    //Tablet Devices
     @media screen and (max-width: 767px) {
       font-size: 20px;
       border-right: 8px solid white;
@@ -72,6 +73,17 @@ export const MeetText = Styled.h1`
   }
 
   @media screen and (min-width: 768px) and (max-width: 1023px) {
+    font-size: 32px;
+      border-right: 8px solid white;
+      animation: blink-caret .75s step-end infinite;
+      @keyframes blink-caret {
+      from, to { border-color: transparent }
+      50% { border-color: white; }
+    }
+  }
+
+  //Big resolutions
+  @media screen and (min-width: 1024px) {
     font-size: 32px;
       border-right: 8px solid white;
       animation: blink-caret .75s step-end infinite;
