@@ -134,21 +134,21 @@ export const Profile = Styled.div`
 `;
 
 export const AvatarBox = Styled.div`
-  width: 20%;
-  height: 170px;
+  width: 18%;
+  height: 180px;
   border-radius: 9999px;
   margin: 5px auto;
 
     //Big Resolutions
     @media screen and (min-width: 1024px) and (max-width: 1365px) {
-    width: 16%;
+    width: 15%;
     height: 160px;
     border-radius: 9999px;
   }
 
-  //large resolutions
-  @media screen and (min-width: 1366px) {
-    width: 13%;
+   //large resolutions
+  @media screen and (min-width: 1367px) {
+    width: 12%;
     height: 168px;
     border-radius: 9999px;
   }
