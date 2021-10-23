@@ -134,15 +134,15 @@ export const Profile = Styled.div`
 `;
 
 export const AvatarBox = Styled.div`
-  width: 18%;
+  width: 20%;
   height: 170px;
   border-radius: 9999px;
   margin: 5px auto;
 
     //Big Resolutions
     @media screen and (min-width: 1024px) {
-    width: 12%;
-    height: 156px;
+    width: 16%;
+    height: 160px;
     border-radius: 9999px;
   }
 
